@@ -25,5 +25,17 @@ Pior caso O(n), sendo N o tamanho da tabela, resultado de um alto número de col
     5. Verificação da integridade de dados de autenticação de mensagens. 
     6. Entre outros. 
 
+## :arrow_right: Grafos
+É um módulo matemático que representa relações entre objetos, sendo utilizado na definição e/ou resolução de problemas de diversas áreas. Um Grafo é composto por um conjunto de Vértices e um conjunto de Arestas, ou também chamados de Nós e Rotas.
+
+Logo, o que é um Vertice? É cada uma das entidades respresentadas em um grafo, pode variar dependendo da sua natureza, sendo pessoas, lugares, casas, ... etc. Duas vértices são adjacentes se existir uma aresta ligando elas. 
+
+Logo, o que é uma aresta? Também chamada de Rotas ou Arco, é uma estrutura associada a dois vértices (v1, v2), responsável por fazer a ligação entre eles.
+
+![Grafo](img/grafo.png)
 
 
+
+* Aplicações:
+Busca pela melhor rota entre dois pontos.
+Verificação de ligações entre usuários/pontos/lugares ... entre outros. 
