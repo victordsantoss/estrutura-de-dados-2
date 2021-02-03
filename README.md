@@ -45,23 +45,18 @@ Logo, o que é uma aresta? Também chamada de Rotas ou Arco, é uma estrutura as
 
 #### Laço
 Uma aresta é chamada de "Laço" se seu vértice de partida é o mesmo vértice de chegada, ou seja, a aresta conecta o vértice com ele mesmo (v1,v1).
-![Grafo](img/laco.png)
 
 #### Caminho
 É uma sequência de vértices de modo que existe sempre uma aresta ligando o vértice anterior ao seguinte. Caminho simples: Nenhum vértice no caminho se repete. Comprimento: É o número de arestas que o caminho usa. 
-![Grafo](img/caminho.png)
 
 #### Ciclo
 É um caminho que começa e termina no mesmo vértice. Um laço é um ciclo de comprimento 1.
-![Grafo](img/ciclo.png)
 
 #### Grafo Acíclico 
 Não contém "ciclos" simples (onde cada vértice aparece apenas uma vez cada).
-![Grafo](img/aciclico.png)
 
 #### Arestas Multiplas
 É um Grafo que permite mais de uma aresta conectando um par de vértices.
-![Grafo](img/arestas_multiplas.png)
 
 ### :warning: Tipos
 * Grafo Trivial: Grafo simples com um único vértice e sem arestas.
