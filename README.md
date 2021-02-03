@@ -64,7 +64,19 @@ Não contém "ciclos" simples (onde cada vértice aparece apenas uma vez cada).
 ![Grafo](img/arestas_multiplas.png)
 
 ### :warning: Tipos
-
+* Grafo Trivial: Grafo simples com um único vértice e sem arestas.
+* Grafo Simples: É um Grafo não direcionado, sem laços e sem arestas paralelas. 
+* Grafo Completo: É um Grafo simples onde cada vértice se conecta a todos os outros vértices.
+* Grafo Regulas: É um Grafo onde todos os vértices possuem o mesmo grua. 
+* SubGrafo: Um SubGrafo G1(v1,a2) é chamado de subgrafo de G(v, a) se "v1" está contido em "v" e "a2" está contigo em "a".
+* Grafo Bipartido: É um grafo cujos vértices podem ser divididos em dois conjuntos. Nesse caso, as arestas ligam os vértices que estão em conjuntos diferentes, nunca ligando vértices do mesmo conjunto. 
+* Grafo Conexo: Existe um caminho partindo qualquer vértice até qualquer outro vértice do Grafo. 
+* Grafo não Conexo: Não existe um caminho ligando dois vértices selecionados. 
+* Grafo Isomorfo: Dois Grafos, "A(v1,a1)" e "A2(v2, a2)"', são isomorfos se existir uma função que faça o mapeamento de vértices e arestas de modo que os dois grafos se tornem coincidentes. 
+* Grafos Ponderados: É um Grafo que possui "pesos" associados a cada uma de suas arestas. 
+* Grafo Hamiltoniano: É um Grafo que possui um caminho que visita cada "vértice" apenas uma vez.
+* Grafo Euleriano: É um Grafo que possui um "ciclo" que visita cada aresta apenas uma vez. 
+* Grafo Semi-Euleriano: É um Grafo que possuium caminho que visita "caminho" que visita cada aresta apenas uma vez.
 
 
 
