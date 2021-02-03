@@ -109,6 +109,7 @@ int remove_Aresta (Grafo *gr, int orig, int dest, int eh_digrafo){
 
     int i = 0;
 
+    // Percorre arestas e vértices procurando para remoção
     while (i < gr->grau[orig] && gr->arestas[orig][i] != dest)
         i++;
         
@@ -135,13 +136,13 @@ int remove_Aresta (Grafo *gr, int orig, int dest, int eh_digrafo){
         Ordenação Topológica de grafo
         Resovler Quebra Cabeça (Ex: Labirinto)
 */
+
 void busca_em_profundidade (Grafo *gr, int ini, int *visitado){
     int i, cont = 1;
     // Marca vértices como não visitados
     for (i = 0; i < gr->nro_vertices; i++)
         visitado[i] = 0;
     auxiliar_busca_em_profundidade (gr, ini, visitado, cont);
-
 }
 
 void auxiliar_busca_em_profundidade (Grafo *gr, int ini, int *visitado, int cont){
