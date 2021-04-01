@@ -73,15 +73,27 @@ Não contém "ciclos" simples (onde cada vértice aparece apenas uma vez cada).
 * Grafo Euleriano: É um Grafo que possui um "ciclo" que visita cada aresta apenas uma vez. 
 * Grafo Semi-Euleriano: É um Grafo que possuium caminho que visita "caminho" que visita cada aresta apenas uma vez.
 
+### 🔃 Funções importantes Implementadas
+* Busca em Profundidade (DFS)
+* Busca em Largura (BFS)
+* Busca pelo Menor caminho 
 
-
-
-
-
-
-
-
-
+### ➕ Sobre
 * Aplicações:
 Busca pela melhor rota entre dois pontos.
 Verificação de ligações entre usuários/pontos/lugares ... entre outros. 
+* Duas abordagens utilizadas: **Matrix de Adjacência** e **Lista de Adjacência**.
+
+## :computer: Como executar os programas usando o sistema Linux?
+> Clonar este repositório
+     
+    git clone https://github.com/victordsantoss/estrutura-de-dados-2.git
+> Acessar a pasta raiz do repositório
+
+    cd ../../estrutura-de-dados-2
+> Escolher um arquivo de preferência e execute o processo de compilação
+    
+    gcc nome_arquivo.c -o bin
+> Rodar o processo de execução
+
+    ./bin
